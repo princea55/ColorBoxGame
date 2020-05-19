@@ -6,7 +6,7 @@ export default function Box({ fruite, randomWord, setFindWord, start}) {
     const [chooseWord, setchooseWord] = useState();
     const [decision, setdesicsion] = useState(true);
     const [count, setcount] = useState(0);
-    const [flipper, setflipper] = useState();
+    const [flipper, setflipper] = useState(false);
     const handlefruite = (cardName) => {
         setchooseWord(cardName);
         setcount(count + 1);
